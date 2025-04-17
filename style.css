@@ -1,0 +1,590 @@
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif;
+margin: 0;}
+img {vertical-align: middle;
+}
+.slide-show-container {
+ position: relative;
+  
+}
+@keyframes slide-fade{
+  0%{opacity:0;}  
+  10%{opacity:1;}
+  30%{opacity:1;}
+  40%{opacity:0;}
+  100%{opacity:0;}
+  
+}
+#icon{
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 45%;
+}
+.slide-fade{
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+  opacity: 0;
+  animation: slide-fade 25s infinite forwards;
+}
+.slide-fade:nth-child(1){
+  animation-delay: 0s;
+  /* animation:  5s ; */
+}
+.slide-fade:nth-child(2){
+  animation-delay: 5s;
+  /* animation:  10s; */
+}
+.slide-fade:nth-child(3){
+  animation-delay: 10s  /* animation: 15s ; */
+}  
+.slide-fade:nth-child(4){
+  animation-delay: 15s;
+  /* animation: 20s ; */
+}
+.slide-fade:nth-child(5){
+  animation-delay: 20s;
+  /* animation:  25s ; */
+}
+#Welcome-image{
+  width: 100%;
+  height: 100vh;
+
+}
+#bone-steak{
+  width: 100%;
+  height: 100vh;
+}
+#nightlife{
+  width: 100%;
+  height: 100vh;
+}
+#escobar{
+  width: 100%;
+  height: 100vh;
+}
+#saviours{
+  width: 100%;
+  height: 100vh;
+}
+.welcome-text{
+  color: #4d4444;
+  font-size: 8vw;
+  position: absolute;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 35%;
+}
+  ul{
+    display: flex;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    gap: 3%;
+    font-size: 1.vw;
+    padding: 1%;
+    width: 45%;
+    border-radius: 50px;
+    margin-top: 46%;
+    position: absolute;
+    margin-left: 30%;
+    list-style-type: none;
+    padding-top: 2%;
+    font-weight: bold;
+  }
+
+  #nav-bar{
+    display: flex;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    gap: 3%;
+    font-size: 1.1vw;
+    padding: 1%;
+    width: 45%;
+    border-radius: 50px;
+    margin-top: -7%;
+    position: absolute;
+    margin-left: 2%;
+    list-style-type: none;
+    padding-top: 2%;
+  }
+  #menu-nav-bar{
+    display: flex;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    gap: 3%;
+    font-size: 1.1vw;
+    padding: 2%;
+    width: 78%;
+    border-radius: 50px;
+    margin-top: 15%;
+    position: absolute;
+    margin-left: 10%;
+    list-style-type: none;
+    padding-top: 4%;
+    
+  }
+  #kilimani-menu-nav-bar{
+    margin-left: 3%;
+    position:fixed;
+    margin-top: -110%;
+  }
+  #bars{
+    padding: 2%;
+    border-radius: 50%;
+    margin-top: -2%;
+  }
+#select{
+  width: 23%;
+  margin-left: 2%;
+  margin-top: -5%;
+  background:none;
+  border: solid white;
+  border-radius: 50%;
+  padding: 3% 3%;
+}
+#reservation-button{
+    background-color: gray;
+    color: white;
+    font-size: 1vw;
+    border-radius: 20px;
+    width: 150%;
+    margin-top: -5%;
+    padding: 8%;
+    cursor: pointer;
+  }
+  .menus{
+    background-color: rgb(27, 21, 21);
+    color: white;
+    width: 15%;
+    padding-left: 1%;
+    border-radius: 15px;
+    padding-top: 1%;
+    line-height: 1vh;
+  }
+  .menu-bar{
+    display: flex;
+    text-align: center;
+   
+  }
+  .kitisuru-branch{
+    background-image: url(images/65c34fee7c31fcb2f8c3700b_001.jpg);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    line-height: 2vh;
+  }
+  .kiliman-branch{
+    background-image: url(images/dunmore-house-limerick-large-4.jpg);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    line-height: 2vh;
+  }
+  #welcome-word{
+    color: red;
+    margin-top: 5%;
+    font-size: 3vw;
+  }
+  #branch{
+    font-size: 4vw;
+  }
+  .food-categories{
+    display: flex;
+    gap: none;
+    overflow-x: hidden;
+    
+  }
+  .menu-kitisuru{
+    background-image:url(images/blanket-image.jpg) ;
+    color: white;
+    width: 52%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20%;
+    line-height: 1vh;
+    position: fixed;
+  }
+  #Kitisuru{
+    color: red;
+    font-size: 4vw;
+  }
+  .food-type{
+    display: flex;
+    gap: 6%;
+    margin-left: 10%;
+    margin-top: 2%; 
+    width: 100%;
+    position: fixed;
+    color: rgb(240, 202, 130);
+    background-color: rgb(23, 21, 21);
+  }
+  .coffee-tea-chcolate{
+    display: flex;
+    color: orangered;
+    gap: 3%;
+    font-size: 1.1vw;
+    margin-top: 3%;
+    
+  }
+  .food-prices{
+    display: flex;
+    gap: 20%;
+    width: 300%;
+  }
+  .Breakfast{
+    margin-top: 15%;
+  }
+  .kitisuru-menu{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    width: 50%;
+    padding-left: 3%;
+    position: relative;
+    margin-left: 52.4%;
+  
+  }
+  #icon-menu{
+    margin-top: 25%;
+  }
+  .break{
+    display:  flex;
+    line-height: 1.9vh;
+    gap: 2%;
+  }
+  #food-icon{
+    width: 10%;
+  }
+  .breakfast-menu{
+    display: flex;
+    margin-top: 6%;
+    padding-right: 3%;
+    width: 90%;
+    
+  }
+  
+  #big-break{
+    margin-left: 80%;
+    margin-top: -50%;
+  
+  }
+  #hash-brown{
+    margin-top: 12%;
+    margin-left: 81%;
+    
+  }
+  #ranch-break{
+    margin-top: 9%;
+    margin-left: 81%;
+   
+  }
+  #crepe{
+    margin-top: 12%;
+    margin-left: 81%;
+  }
+  .soup-and-price{
+    display: flex;
+    gap: 40%;
+  }
+  .salads{
+    display: flex;
+  }
+  #thai-beef{
+    margin-left: 80%;
+    margin-top: -56%;
+  }
+  #keen-salad{
+    margin-top: 14%;
+    margin-left: 81%;
+  }
+  #chicken{
+    margin-top: 11%;
+    margin-left: 81%;
+  }
+  #greek-salad{
+    margin-top: 13%;
+    margin-left: 81%;
+  }
+  .drinks{
+    display: flex;
+    gap: 65%;
+  }
+  .juice-drinks{
+    display: flex;
+    gap: 45%;
+  }
+  .juice_drinks{
+    gap: 53%;
+    display: flex;
+  }
+  #juice{
+    color: red;
+  }
+  #food-salads{
+    color: red;
+    font-size: 1.1vw;
+  }
+
+
+  .textshow-container{
+    position: relative;
+    background-color: black;
+    color: white
+  }
+  .text-review{
+    display:;
+    text-align: center;
+  }
+  .next{
+    position: absolute;
+    right: 0;
+    border-radius: 0 3px 3px 0;
+
+  }
+  .prev:hover, .next:hover{
+    background-color: ;
+    color: white;
+  }
+  .prev, .next{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    font-size: 4vw;
+    color: white;
+    user-select: none;
+  }
+
+
+
+
+  .reservation-page{
+    display: flex;
+  }
+    
+  .reservation{
+    background-image: url(images/tropical-leaves-background-jungle-rainforest-plants-wallpaper-generative-ai_691560-9540.avif);
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    padding-top: 25%;
+    line-height: 1vh;
+  }
+  #reserve{
+    color: red;
+    font-size: 5vw;
+  }
+  .reservation-form{
+    color: white;
+    background-color: #0f0f0f;
+    width: 50%;
+    padding-left: 3%;
+    padding-top: 3%;
+  }
+  #reservation-icon{
+    margin-top: -20%;
+  }
+  input{
+    padding: 2%;
+    width: 95%;
+    background:none;
+    color: white;
+  }
+  #submit-button{
+    width: 95%;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 1vw;
+    background-color: #e9d8d8;
+    cursor: pointer;
+  }
+  .contacts{
+    display: flex;
+    background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(9, 2, 2, 0.5)),url(images/droombos-vineyard-country-lodge-1314257.jpg);
+    background-size: screen;
+    background-position: relative;
+    height: 100vh;
+  }
+  a{
+  color: white;  
+  text-decoration: none;  
+    }
+  .kitisuru-contacts{
+    color: white;
+    border: 2px solid;
+    height: 30vh;
+    width: 23%;
+    margin-top: 22%;
+    margin-left: 27%;
+    padding-left: 2%;
+    font-size: 1vw solid;
+    line-height: 1vh;
+  }
+  .kilimani-contacts{
+    color: white;
+    border: 2px solid;
+    height: 35vh;
+    width: 23%;
+    margin-top: 22%;
+    margin-left: 1%;
+    padding-left: 2%;
+    font-size: 1vw solid;
+    line-height: 1vh;
+    
+  }
+  #contact-branch{
+    font-size: 2vw;
+  }
+  .live-page{
+    background-image: linear-gradient(rgba(22, 21, 21, 0.5), rgba(9, 2, 2, 0.5)), url(images/African-Tribal.webp); 
+    height: 100vh;
+  
+  }
+  #fad{
+    width: 18%;
+    margin-left: 52%;
+    height: 30vh;
+    margin-top: -52%;
+
+  }
+  #mushroom{
+    width: 18%;
+    height: 30vh;
+    margin-left: 52%;
+    margin-top: -20%;
+  }
+  #muguna{
+    width: 18%;
+    height: 30vh;
+    margin-left: 52%;
+    margin-top: -1%;
+  }
+  .photos{
+    display: inline;
+  }
+  .fadhilee{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(9, 2, 2, 0.5)), url(images/fadhilee-acoustic-wed.jpg);
+    height: 250vh;
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+    font-size: 1.5vw;
+  
+  }
+  .mushrooms{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(9, 2, 2, 0.5)), url(images/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250vh;
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+    font-size: 1.5vw;
+  }
+  .muguna{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(9, 2, 2, 0.5)), url(images/muguna-images.jpeg);
+    background-size: cover;
+    height: 250vh;
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+    font-size: 1.5vw;
+  }
+  .coustic-wed{
+    color: white;
+    padding-top: 20%;
+    padding-left: 20%;
+    line-height: 1vh;
+  }
+  #live{
+    color: red;
+    font-size: 4vw;
+    margin-left: -1%;
+  }
+  #live-icon{
+    margin-left: -2%;
+    margin-top: -5%;
+  }
+  #april{
+    color: rgb(250, 7, 7);
+  }
+  .guest-name{
+    margin-top: -46%;
+    color: white;
+    margin-left: 71%;
+  }
+  .twenty-third{
+    margin-left: 71%;
+    color: white;
+    margin-top: 11%;
+  }
+  #fad-live{
+    font-size: 4vw;
+  }
+  .sisteenth{
+    color: white;
+    margin-left: 71%;
+    margin-top: 10%;
+  }
+  .event-page{
+    display: flex;
+    text-align: center;
+    color: white;
+    
+  }
+  #pav{
+    color: #4d4444;
+    line-height: 0vh;
+  }
+  #pavilion{
+    font-size: 3vw;
+  }
+  .accra{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(9, 2, 2, 0.5)), url(images/65d4a8fe2b90d2cc28fd4a80_accra.jpg);
+    width: 50%;
+    height: 100vh;
+    padding-top: 15%;
+  }
+  .nairobi{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(9, 2, 2, 0.5)), url(images/582732012.jpg);
+    width: 50%;
+    color: white;
+    padding-top: 4%;
+  }
+  .zanzibar{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(9, 2, 2, 0.5)), url(images/H85ad6f70253a47de982f035abc8aa1caq.avif);
+    width: 50%;
+    padding-top: 15%;
+  }
+  #private-event{
+    color: rgb(248, 248, 160);
+    font-size: 0.8vw;
+    line-height: 1vh;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+  #Welcome-image{
+    height: 30%;
+  }
+}
+
+
+
+
+  
