@@ -791,7 +791,7 @@ img {vertical-align: middle;
       height: 100vh;
       width: 100%;
     }
-  }
+
   ul{
     margin-top: 150%;
     gap: 2%;
@@ -1145,134 +1145,9 @@ img {vertical-align: middle;
     display: block;
     
   }
-
-  
-
 }
 
 
 
 
-  /* @media only screen and (min-width: 768) {
-    .slide-fade{
-      height: 300vh;
-      width: 100%;
-      margin-top: 35%;
-    }
-
-  }
-  .slide-fade{
-    height: 300vh;
-    width: 100%;
-    margin-top: 0%;
-    overflow: hidden;
-    overflow-x: hidden;
-    position: fixed;
-    
-  }
-  ul{
-    margin-top: 49%;
-    gap: 2%;
-    font-size: 1.5vw;
-    width: 35%;
-    padding-right: 5%;
-    font-size: 1vw;
-    position: absolute;
-  }
-  .welcome-text{
-    margin-top: 18%;
-    font-size: 6vw;
-  }
-  #icon{
-    margin-top: 5%;
-    width: 13%;
-  }
-  #select{
-    width: 15%;
-    height: 2vh;
-    margin-top: 1%;
-  }
-  .kitisuru-contacts{
-    font-size: 1.5vw;
-    width: 26%;
-    height: 35vh;
-    margin-left: 6%;
-  }
-  .kilimani-contacts{
-    font-size: 1.5vw;
-    width: 26%;
-    height: 45vh;
-    margin-left: 9%;
-  }
-  #contact-branch{
-    font-size: 3vw;
-  }
-  #event-icon{
-    width: 35%;
-  }
-  #private-event{
-    font-size: 2vw;
-    line-height: 2.2vh;
-  }
-  #pavilion{
-    font-size: 4vw;
-  }
-
-  #review-icon{
-    width: 30%;
-  }
-  #review{
-    font-size: 6vw;
-  }
-  q{
-    font-size: 3.6vw;
-    line-height: 2vh;
-  }
-  .next{
-    margin-right: -24%;
-    font-size: 3vw;
-    margin-top: -30%;
-  }
-  .prev{
-    margin-left: 2%;
-    font-size: 3vw;
-    margin-top: -30%;
-  }
-  #first-menu-nav-bar{
-    margin-top: -2%;
-  }
-  .guest-name{
-    margin-top: -44%;
-    font-size: 1vw;
-  }
-  .twenty-third{
-    font-size: 1vw;
-  }
-  .sisteenth{
-    font-size: 1vw;
-  }
-  #fad{
-    height: 26%;
-    margin-top: -63%;
-  }
-  #mushroom{
-    height: 26%;
-    margin-top: -30%;
-  }
-  #muguna{
-    height: 26%;
-    margin-top: -6%;
-  }
-  #live-nav-bar{
-
-  } */
-
-
-  
-  
-
-
-
-
-
-  
+ 
