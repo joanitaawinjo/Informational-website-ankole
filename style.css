@@ -29,6 +29,7 @@ img {vertical-align: middle;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  
   position:absolute;
   opacity: 0;
   animation: slide-fade 25s infinite forwards;
@@ -259,7 +260,7 @@ img {vertical-align: middle;
     gap: 20%;
     width: 300%;
   }
-  .Breakfast{
+  .breakfast{
     margin-top: 15%;
   }
   .kitisuru-menu{
@@ -583,6 +584,7 @@ img {vertical-align: middle;
   }
   .fadhilee{
     background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(9, 2, 2, 0.5)), url(images/fadhilee-acoustic-wed.jpg);
+    background-size: cover;
     height: 250vh;
     text-align: center;
     color: white;
@@ -774,181 +776,206 @@ img {vertical-align: middle;
     position: fixed;
   }
 
-  @
-
-  @media only screen and (min-width: 600px) {
-    .slide-fade{
-      height: 70vh;
-      width: 100%;
-    }
-
-  
-  .slide-fade{
-    height: 20vh;
-    width: 100%;
-  }
+  @media screen and (max-width: 600px){
   ul{
-   
-    gap: 2%;
-    font-size: 1.5vw;
+    margin-top: 130%;
     width: 50%;
-    padding-right: 5%;
-  }
-  .welcome-text{
-    margin-top: 60%;
-    font-size: ;
   }
   #icon{
-
-    width: 0%;
+    width: 12%;
+    margin-top: 10%;
   }
   #select{
-    padding: 1%;
-    height: 4%;
-    margin-top: 1%;
+    height: 1vh;
   }
-
-  .kitisuru-contacts{
-    font-size: 2.6vw;
-    width: 43%;
-    height: 23vh;
-    margin-left: 6%;
-  }
-  .kilimani-contacts{
-    font-size: 2.6vw;
-    width: 42%;
-    height: 32vh;
-    margin-left: 4%;
-  }
-  #contact-branch{
-    font-size: 4vw;
-  }
-    
-  #event-icon{
-    width: 35%;
-  }
-  #private-event{
-    font-size: 1.3vw;
-    line-height: 1vh;
-  }
-  #pavilion{
-    font-size: 4vw;
-  }
-
-  .food-categories{
-    font-size: 1vw;
-    line-height: 2vh;
-  }
-  #big-break{
-    margin-top: -90%;
-    margin-left: 82%;
-  }
-  #hash-brown{
-    margin-top: 18%;
-    margin-left: 82%;
-  }
-  #ranch-break{
-    margin-top: 15%;
-    margin-left: 82%;
-  }
-  #crepe{
-    margin-top: 18%;
-    margin-left: 82%;
-  }
-  #food-salads{
-    margin-top: -2%;
-  }
-  .soup{
-    line-height: 1vw;
-    margin-top: -4%;
-  }
-  .soup-price{
-    line-height: 1vw;
-    margin-top: -4%;
-  }
-  .salads{
-    line-height: 1vh;
-  }
-  #thai-beef{
-    margin-top: -90%;
-    margin-left: 85%;
-  }
-  #keen-salad, #chicken, #greek-salad{
-    margin-left: 85%;
-  }
-  .drinks, .drink-prices{
-    line-height: 1vh;
-    margin-top: -5%;
-  }
-  .drink-type{
-    line-height: 1vh;
-  }
-  #menu-nav-bar{
-    width: 85%;
-    gap: 0.1cm;
-    padding-left: 0;
-    margin-top: 160%;
-  }
-  #food-salads{
-    margin-top: -4%;
-  }
-  #thai-beef{
-    margin-top: -65%;
-  }
-  .drink-prices{
-    margin-top: 1%;
-    margin-left: 2%;
-  }
-
-  .coustic-wed{
-    text-align: center;
-    margin-top: -12%;
-  }
-  #live-icon{
-    width: 20%;
+.slide-fade{
+  height: 66vh;
+}
+#first-menu-nav-bar{
+  margin-top: -92%;
+}
+#icon-menu{
+  width: 30%;
+  margin-top: 80%;
+}
+.food-categories{
+  display: block;
+}
+#menu-icon{
+  width: 20%;
+  margin-top: -9%;
+}
+#Kitisuru{
+  font-size: 8vw;
+}
+.menu-kitisuru{
+  width: 100%;
+  height:35vh;
+  font-size: 3vw;
+}
+.kitisuru-menu{
+  width: 101%;
+  margin-left: -1%;
+  font-size: 2vw;
+  margin-top:77%;
+  position: relative;
+}
+#menu-nav-bar{
+  width: 55%;
+  padding: 2%;
+  margin-left: 22%;
+}
+.food-type{
+  width: 50%;
+  margin-left: 60%;
+}
+.breakfast{
+  padding-top: 6%;
+}
+q{
+  font-size: 2.2vw;
+}
+#review-icon{
+  width: 20%;
+  margin-top: 15%;
+}
+#review{
+  font-size: 5vw;
+}
+.event-page{
+  font-size: 2vw;
+}
+#event-icon{
+  width: 35%;
+  margin-top: -50%;
+}
+#private-event{
+  font-size: 2.4vw;
+}
+#pavilion{
+  font-size: 5vw;
+}
+.accra, .nairobi, .zanzibar{
+  padding-top: 50%;
+}
+#event-nav-bar{
+  margin-top: -88%;
+  font-size: 2vw;
+  width: 70%;
+  margin-left: 13%;
+}
+#live-icon{
+  width: 20%;
+  margin-top: -5%;
+}
+#fad{
+  margin-top: 2%;
+  margin-left: 4%;
+  height: 15vh;
+  width: 30%;
+}
+#mushroom{
+  margin-top: 4%;
+  margin-left: 4%;
+  height: 15vh;
+  width: 30%;
+}
+#muguna{
+  margin-top: 4%;
+  margin-left: 4%;
+  height: 15vh;
+  width: 30%;
+}
+.fadhilee{
+  font-size: xx-small;
   
+}
+.guest-name{
+font-size: 2vw;
+margin-left: 40%;
+margin-top: -90%;
+}
+.twenty-third{
+  font-size: 2vw;
+  margin-left: 40%;
+  margin-top: 23%;
+}
+.sisteenth{
+  font-size: 2vw;
+  margin-left: 40%;
+  margin-top: 23%;
+}
+.coustic-wed{
+  text-align: center;
+  margin-top: -15%;
+}
+#live-nav-bar{
+  margin-top: -80%;
+  margin-left: 20%;
+  position: fixed;
+}
+.kitisuru-contacts{
+  width: 50%;
+  margin-left: 26%;
+  height: 20vh;
+  font-size: 2.9vw;
+}
+.kilimani-contacts{
+  width: 50%;
+  margin-left: -50%;
+  height: 25vh;
+  font-size: 2.9vw;
+  margin-top: 70%;
+}
+#contact-nav-bar{
+  margin-top: -87%;
+}
+#contact-branch{
+  font-size: 5vw;
+}
+.reservation-page{
+  display: block;
+}
+.reservation{
+  height: 20vh;
+  width: 100%;
+  font-size: 2vw;
+  
+}
+#reservation-icon{
+  width: 20%;
+  margin-top: -30%;
+}
+.reservation-form{
+  width: 100%;
+  position: absolute;
+  font-size: 2.5vw;
+}
+input{
+  padding: 3px;
+  font-size: 2vw;
+}
+#submit-button{
+  font-size: 2.2vw;
+}
+#nav-bar{
+  margin-left: 20%;
+  font-size: 2vw;
+  width: 70%;
+  padding: 1%;
+}
+#reserve{
+  margin-top: -2%;
+}
   }
-  .guest-name{
-    font-size: 1.6vw;
-    margin-left: 30%;
-    margin-top: -86%;
-  }
-  .twenty-third{
-    font-size: 1.6vw;
-    margin-left: 30%;
-    margin-top: 27%;
-  }
-  .sisteenth{
-    font-size: 1.6vw;
-    margin-left: 30%;
-    margin-top: 30%;
-  }
-  #fad{
-    height: 18vh;
-    width: 25%;
-    margin-top: 3%;
-    margin-left: 4%;
-  }
-  #mushroom{
-    height: 18vh;
-    width: 25%;
-    margin-top:10%;
-    margin-left: 4%;
+  
 
-  }
-  #muguna{
-    height: 18vh;
-    width: 25%;
-    margin-top: 11%;
-    margin-left: 4%;
-  }
-  .reservation-page{
-    display: block;
-    
-  }
+
+  
+  @media screen and (width: 600px) {
+  
 }
 
 
 
 
- 
